@@ -11,8 +11,8 @@ module org.usuario {
     //requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens org.usuario to javafx.fxml;
+    opens org.usuario.controller to javafx.fxml;
     exports org.usuario;
     exports org.usuario.controller;
-    opens org.usuario.controller to javafx.fxml;
+    //opens org.usuario.controller to javafx.fxml;
 }
